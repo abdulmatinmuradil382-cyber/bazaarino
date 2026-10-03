@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; font-family: Tahoma, Arial, sans-serif; }
+button, input { font: inherit; }
+.line-clamp-1 { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
